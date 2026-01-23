@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialSphere</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+  <header >
+
+    <h3 class="switch-user">
+    <i class="fa-solid fa-circle-user"></i>
+    Switch User
+    <select id="userSelect">
+    <option value="Kiara">Kiara</option>
+    <option value="Akansha">Akansha</option>
+    <option value="Sam">Sam</option>
+  </select>
+   </h3>
+
+    <h1 class="title">
+    <i class="fa-solid fa-globe"></i>
+    SocialSphere
+    </h1>
+
+  </header>  
+
+  <main>
+
+   
+
+    <div class="home-page">
+
+      <div id="feed">
+       
+      </div>
+    </div>
+
+
+   <div class="create-post" style="display: none;" >
+
+      <h3>
+        Create new post
+      </h3>
+
+      <input 
+        type="text" 
+        id="imageInput" 
+        placeholder="Paste image URL"
+      />
+      <!-- the url should 1.open as ony image,2.should not need login,cookies or any permission,
+       3.Opens as ONLY an image(If you see a website layout → wrong URL.) -->
+
+
+      <textarea 
+         id="captionInput" 
+         placeholder="Write a caption..."
+       ></textarea>
+
+  <button id="postBtn">Post</button>
+      
+   </div>
+
+  </main>
+
+   <div class="tabs">
+        <div class="home-page-icon">
+           <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="create-post-icon">
+           <i class="fa-solid fa-plus"></i>
+        </div>
+    </div>
+
+  
+    <script src="script.js">
+    </script>
+</body>
+</html>
