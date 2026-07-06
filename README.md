@@ -62,4 +62,3 @@ The image URL **must follow ALL the rules below**:
 2. Must **not** require login, cookies, or permissions
 3. If a website layout appears → **the URL is invalid**
 
-### ✅ Correct Example
